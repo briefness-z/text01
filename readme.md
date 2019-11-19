@@ -34,3 +34,8 @@ git checkout 名字   切换分支路线
 第九步
 git merge 分支名字     合并分支
 git branch -d 分支名字    删除分支
+***代码提交到GitHub上
+  列：git push https://github.com/briefness-z/text01.git master
+ ****下拉代码
+ 创建文件夹，初始化仓储，git pull
+ git pull  地址  分支
