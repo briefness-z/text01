@@ -14,3 +14,12 @@ git log   打印详细修改日志记录
 git log --oneline   打印简洁修改日志记录
 第六步
 git reset --hard Head~0  回到上一次代码文件的状态 0上一级   1上两级 ....
+git reset --hard xxxxxxx（版本号）  回到指定位置状态，先git log --oneline 再git reset --hard 52fb501  ==回到第六步    
+el:$ git log --oneline
+	52fb501 (HEAD -> master) 第六步
+	ba286dd 第四步更新
+	6b3e035 第四步+registry.html
+	8d57404 第四次修改
+	0349e3b 第三步
+	b246091 第二步
+	0bbb89e 完成第一步
