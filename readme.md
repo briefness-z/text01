@@ -23,3 +23,14 @@ el:$ git log --oneline
 	0349e3b 第三步
 	b246091 第二步
 	0bbb89e 完成第一步
+版本号是唯一的，可以前后切换
+第七步
+git reflog  打印历史所有的操作记录
+第八步
+git branch 名字   创建分支，分支名字
+git branch   查看分支结构
+git checkout 名字   切换分支路线
+切换分支后其他人无法访问分支，只有合并分支
+第九步
+git merge 分支名字     合并分支
+git branch -d 分支名字    删除分支
